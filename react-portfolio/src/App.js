@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import header from "header";
+import navbar from "navbar";
+import info from "info";
+import portfolio from "portfolio";
+import resume from "resume";
+import contact from "contact";
+import socialbar from "socialbar";
+import footer from "footer";
+
+import "./App.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+  <router>
+    <div>
+    <div className="mainDiv">
+      <header />
+      <navbar />
+
+        <aboutme />
+        <portfolio />
+        <contact />
+        <socialbar />
+
+        <div>
+        <footer />
+        </div>
     </div>
+    </div>
+    </router>
+    </>
   );
 }
 
