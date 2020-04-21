@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 body{
   display: flex;
@@ -44,8 +44,9 @@ a{
 }
 .header_container ul li a{
   text-decoration: none;
-  color: rgb(185, 36, 36);
-  font-size: 1rem;
+  color: rgb(245, 124, 68);
+  font-size: 2rem;
+  margin-right: -6vh;
 }
 
 /* Home */
@@ -54,7 +55,7 @@ a{
   flex-direction: row;
   justify-content:space-between;
   position: relative;
-  top: 12rem;
+  top: 9rem;
 }
 
 .home_container .home_head_wrapper{
@@ -69,7 +70,7 @@ a{
   font-family: "Montserrat";
 }
 .home_container .home_head_wrapper h1 span{
-  color:rgb(228, 187, 55);
+  color: rgb(245, 124, 68);
 }
 .home_container .home_head_wrapper p{
   position: relative;
@@ -133,7 +134,7 @@ a{
 }
 .contact_container .email_link{
   font-size: 4rem;
-  color: blue;
+  color: rgb(245, 124, 68);
   position: relative;
   top:-4rem;
 }
@@ -146,7 +147,7 @@ a{
   padding-right: 3rem;
 }
 .contact_container li a{
-  color: rgb(182, 35, 96);
+  color: rgb(54, 40, 46);
   text-decoration: none;
   font-size: 2rem;
 }
@@ -183,6 +184,8 @@ a{
   body{
     font-size: 2px;
   }
+
+
   /* Header */
 
   .header_container {
@@ -382,7 +385,5 @@ a{
   .contact_container li a {
     font-size: 0.5rem;
   }
-
-
 }
 

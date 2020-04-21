@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, } from "react-icons/fa";
+import { FaFile, FaLinkedin, FaGithub, } from "react-icons/fa";
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
 
@@ -8,23 +8,23 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
         <h1>Get in touch.</h1>
         <p>{contactPara}</p>
         <br></br>
-        <a className="email_link" href={`minton:${contactEmail}`}>
+        <a className="email_link" href={`mailto:${contactEmail}`}>
           {contactEmail}
         </a>
         <div className="social_links">
           <ul>
             <li>
-              <a href={`minton:${contactEmail}`}>
-                <FaEnvelope></FaEnvelope>
-              </a>
-            </li>
-            <li>
               <a href={socialLinks[0].url}>
-                <FaLinkedin></FaLinkedin>
+                <FaFile></FaFile>
               </a>
             </li>
             <li>
               <a href={socialLinks[1].url}>
+                <FaLinkedin></FaLinkedin>
+              </a>
+            </li>
+            <li>
+              <a href={socialLinks[2].url}>
                 <FaGithub></FaGithub>
               </a>
             </li>

@@ -1,5 +1,5 @@
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
+
 
   //Change The Website Template
   name: "Lauren Minton",
@@ -21,41 +21,41 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "City Data Map- Project 1", //Project Title - Add Your Project Title Here
       // Image Size Should be (300X300 px)
-      imageSrc: "https://via.placeholder.com/300",
+      imageSrc: "assets/citydatamap.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/"
+      url: "https://baileyrva.github.io/stateofhappiness/"
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)
-      title: "Project Two",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Code Quiz",
+      imageSrc: "assets/Codequiz.png",
+      url: "https://lbm2439.github.io/Code-Quiz/"
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)
-      title: "Project Three",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Nextdoor Neighbor-Project 2",
+      imageSrc: "assets/NextdoorNeighbor.png",
+      url: "https://glacial-eyrie-74819.herokuapp.com/"
     },
     {
       id: 4, //DO NOT CHANGE THIS (Please)
-      title: "Project Four",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Password Generator",
+      imageSrc: "assets/passwordgenerator.png",
+      url: "https://lbm2439.github.io/Password-Generator/"
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)
-      title: "Project Five",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Order A Burger",
+      imageSrc: "assets/eattheburger.png",
+      url: "https://mysterious-anchorage-15261.herokuapp.com/"
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)
-      title: "Project Six",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
+      title: "Pipeline-Project 3 (Coming Soon)",
+      imageSrc: "assets/pipeline.png",
+      url: "error404"
     }
   ],
 
@@ -63,7 +63,10 @@ export default {
   contactPara:
     "Feel free to contact me here:",
   social: [
-    // Add Or Remove The Link Accordingly
+    {
+      name: "Resume",
+      url: "https://drive.google.com/file/d/1eaZDBNbuin9xZijIVeChNisVe6MIi0hS/view?usp=sharing",
+    },
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/mintonlauren/",
