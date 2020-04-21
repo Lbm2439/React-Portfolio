@@ -1,18 +1,15 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import About from "./components/About";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./components/Landing";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact>
-          <Landing></Landing>
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <Router>
+      <>
+        <Route exact path="/" component={Landing} />
+      </>
+    </Router>
   );
 }
 
