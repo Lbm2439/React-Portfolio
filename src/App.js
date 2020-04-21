@@ -8,9 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/about">
-          <About></About>
-        </Route>
         <Route path="/" exact>
           <Landing></Landing>
         </Route>
