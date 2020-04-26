@@ -11,7 +11,9 @@ const Header = ({ name, contactEmail }) => {
           <ul>
             {/* <li><Link to="/about">about</Link></li> */}
             <li>
-              <a href={`mailto:${contactEmail}`}>contact</a>
+              <a href="">About</a>
+              <a href="">Portfolio</a>
+              <a href={`mailto:${contactEmail}`}>Contact</a>
             </li>
           </ul>
         </nav>
