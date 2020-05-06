@@ -21,12 +21,18 @@ a {
   color: rgb(148, 40, 40);
 }
 
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
 /* Header */
 
 .header_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 80vw;
   top: 5rem;
@@ -55,17 +61,16 @@ a {
 .home_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
   top: 9rem;
 }
-
 .home_container .home_head_wrapper {
   position: relative;
   top: 2rem;
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  min-width: 40vw;
 }
 .home_container .home_head_wrapper h1 {
   font-size: 4.5rem;
@@ -82,11 +87,11 @@ a {
 }
 .home_container .image_container img {
   position: relative;
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
-  padding: 5vh;
-  margin-top: 7vh;
-  margin-left: 12vh;
+  margin-top: 50%;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 /* Work */
@@ -121,6 +126,7 @@ a {
   flex-direction: column;
   position: relative;
   top: 20rem;
+  margin-bottom: 30px;
 }
 .contact_container h1 {
   font-size: 10rem;
@@ -203,6 +209,7 @@ a {
 
   .home_container {
     top: 6rem;
+    flex-wrap: wrap-reverse;
   }
 
   .home_container .home_head_wrapper {
@@ -220,8 +227,8 @@ a {
   }
 
   .home_container .image_container img {
-    height: 10rem;
-    width: 8rem;
+    height: 12rem;
+    width: 10rem;
     top: 2rem;
   }
 
