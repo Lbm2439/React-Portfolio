@@ -5,14 +5,20 @@ const Header = ({ name, contactEmail }) => {
   return (
     <div>
       <div className="header_container">
-        <img src="assets/logo2.png" width="450vh" height="auto" alt="my logo" />
+        <div className="header-wrapper">
+          <img src="assets/logo2.png" height="auto" alt="my logo" />
+        </div>
         {/* <Link to="/"><h1>{name}</h1></Link> */}
         <nav>
           <ul>
             {/* <li><Link to="/about">about</Link></li> */}
             <li>
               <a href="">About</a>
+            </li>
+            <li>
               <a href="">Portfolio</a>
+            </li>
+            <li>
               {/* <a href={`mailto:${contactEmail}`}>Contact</a> */}
               <a href="">Contact</a>
             </li>
