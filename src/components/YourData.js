@@ -6,7 +6,7 @@ export default {
   landingPageName: "Lauren Minton",
 
   landingPagePara:
-    "I am a Junior Full Stack Web Developer with a backgorund in Design and Photography.  I have a passion for designing beautiful and functional code.  Currently accepting job offers to persue my dream.",
+    "I am a Full Stack Web Developer with a background in Design and Photography.  I have a passion for designing beautiful and functional code.  I am a recent University of Richmond graduate looking for my dream job.",
 
   landingPageImage: "assets/photo.png",
 
