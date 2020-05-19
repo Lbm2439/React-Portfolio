@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-scroll"
 // import { Link } from "react-router-dom";
 
 const Header = ({ name, contactEmail }) => {
@@ -13,14 +14,14 @@ const Header = ({ name, contactEmail }) => {
           <ul>
             {/* <li><Link to="/about">about</Link></li> */}
             <li>
-              <a href="">About</a>
+              <Link to="about_container" smooth={true} duration={1000}>About</Link>
             </li>
             <li>
-              <a href="">Portfolio</a>
+              <Link to="work_container" smooth={true} duration={1000}>Portfolio</Link>
             </li>
             <li>
               {/* <a href={`mailto:${contactEmail}`}>Contact</a> */}
-              <a href="">Contact</a>
+              <Link to="contact_container" smooth={true} duration={1000}>Contact</Link>
             </li>
           </ul>
         </nav>

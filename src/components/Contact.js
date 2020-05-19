@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFile, FaLinkedin, FaGithub } from "react-icons/fa";
 
+
 const Contact = ({ contactEmail, contactPara, socialLinks }) => {
   return (
     <div className="contact_container">
