@@ -207,6 +207,6 @@ ul {
     font-size: 1.5rem;
   }
 }
-/*
+/*`
 Manage data in state - maybe convert App.js to a class based component to hold traditional state, or use useState in the functional component
 */
