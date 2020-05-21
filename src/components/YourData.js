@@ -13,7 +13,7 @@ export default {
   projects: [
     {
       id: 1,
-      title: "City Data Map- Project 1",
+      title: "City Data Map",
 
       imageSrc: "assets/citydatamap.png",
 
@@ -27,27 +27,27 @@ export default {
     },
     {
       id: 3,
-      title: "Nextdoor Neighbor-Project 2",
+      title: "Nextdoor Neighbor",
       imageSrc: "assets/NextdoorNeighbor.png",
       url: "https://glacial-eyrie-74819.herokuapp.com/"
     },
     {
       id: 4,
-      title: "Password Generator",
-      imageSrc: "assets/passwordgenerator.png",
-      url: "https://lbm2439.github.io/Password-Generator/"
+      title: "Google Book Search-React",
+      imageSrc: "assets/Google Book Search.png",
+      url: "https://obscure-mountain-16294.herokuapp.com/"
     },
     {
       id: 5,
-      title: "Order A Burger",
-      imageSrc: "assets/eattheburger.png",
-      url: "https://mysterious-anchorage-15261.herokuapp.com/"
+      title: "Fitness Tracker App",
+      imageSrc: "assets/Fitness Tracker.png",
+      url: "https://infinite-chamber-35998.herokuapp.com/"
     },
     {
       id: 6,
-      title: "Pipeline-Project 3 (Coming Soon)",
-      imageSrc: "assets/pipeline.png",
-      url: "error404"
+      title: "Budget Tracking App",
+      imageSrc: "assets/Progressive Budget Tracker.png",
+      url: "https://thawing-headland-19129.herokuapp.com/"
     }
   ],
 
