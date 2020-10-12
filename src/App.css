@@ -110,6 +110,9 @@ ul {
   flex-wrap:wrap;
   margin-bottom: 6rem;
 }
+.title {
+  text-align: center;
+}
 
 /** CONTACT **/
 
@@ -124,7 +127,7 @@ ul {
 
 .email_link {
   color: #F57C44;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .social_links ul {
@@ -205,6 +208,7 @@ ul {
   .email_link {
     color: #F57C44;
     font-size: 1.5rem;
+    font: small-caption;
   }
 }
 /*`

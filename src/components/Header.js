@@ -14,7 +14,7 @@ const Header = ({ name, contactEmail }) => {
           <ul>
             {/* <li><Link to="/about">about</Link></li> */}
             <li>
-              <Link to="about_container" smooth={true} duration={1000}>About</Link>
+              <Link to="home_container" smooth={true} duration={1000}>About</Link>
             </li>
             <li>
               <Link to="work_container" smooth={true} duration={1000}>Portfolio</Link>

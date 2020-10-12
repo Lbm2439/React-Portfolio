@@ -6,7 +6,7 @@ export default {
   landingPageName: "Lauren Minton",
 
   landingPagePara:
-    "I am a Full Stack Web Developer with a background in Design and Photography.  I have a passion for designing beautiful and functional code.  I am a recent University of Richmond graduate looking for my dream job.",
+    "I go by the name of Lauren Minton and I am multidisciplinary UX/UI Designer, Front-end Developer, Graphic Designer, & Photographer.  I am here to make functional designs and responsive applications.",
 
   landingPageImage: "assets/photo.png",
 
@@ -21,9 +21,9 @@ export default {
     },
     {
       id: 2,
-      title: "Code Quiz",
-      imageSrc: "assets/Codequiz.png",
-      url: "https://lbm2439.github.io/Code-Quiz/"
+      title: "Prototypes & Mockups",
+      imageSrc: "assets/Couplekeepermockup.png",
+      // url: "https://lbm2439.github.io/Code-Quiz/"
     },
     {
       id: 3,
@@ -45,9 +45,9 @@ export default {
     },
     {
       id: 6,
-      title: "Budget Tracking App",
-      imageSrc: "assets/Progressive Budget Tracker.png",
-      url: "https://thawing-headland-19129.herokuapp.com/"
+      title: "Vectors",
+      imageSrc: "assets/Apple copy.png",
+      // url: "https://thawing-headland-19129.herokuapp.com/"
     }
   ],
 
