@@ -13,40 +13,39 @@ export default {
   projects: [
     {
       id: 1,
-      title: "City Data Map",
-
+      title: "Web Development",
       imageSrc: "assets/citydatamap.png",
-
-      url: "https://baileyrva.github.io/stateofhappiness/"
+      detailImages: ["assets/Apple copy.png"]
     },
     {
       id: 2,
-      title: "Prototypes & Mockups",
+      title: "UX/UI Design",
       imageSrc: "assets/Couplekeepermockup.png",
-      // url: "https://lbm2439.github.io/Code-Quiz/"
+      detailImages: ["assets/Codequiz.png"]
     },
     {
       id: 3,
-      title: "Nextdoor Neighbor",
+      title: "Apps",
       imageSrc: "assets/NextdoorNeighbor.png",
-      url: "https://glacial-eyrie-74819.herokuapp.com/"
+      detailImages: ["assets/pipeline.png"]
     },
     {
       id: 4,
-      title: "Google Book Search-React",
-      imageSrc: "assets/Google Book Search.png",
-      url: "https://obscure-mountain-16294.herokuapp.com/"
+      
+      title: "Wordpress, Wix, Shopify",
+      imageSrc: "assets/Fitness Tracker.png",
+      // url: "https://obscure-mountain-16294.herokuapp.com/"
     },
     {
       id: 5,
-      title: "Fitness Tracker App",
-      imageSrc: "assets/Fitness Tracker.png",
-      url: "https://infinite-chamber-35998.herokuapp.com/"
+      title: "Vectors & Illustrations",
+      imageSrc: "assets/Apple copy.png",
+      // url: "https://infinite-chamber-35998.herokuapp.com/"
     },
     {
       id: 6,
-      title: "Vectors",
-      imageSrc: "assets/Apple copy.png",
+      title: "Passion Projects",
+      imageSrc: "assets/Google Book Search.png",
       // url: "https://thawing-headland-19129.herokuapp.com/"
     }
   ],
