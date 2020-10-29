@@ -14,39 +14,39 @@ export default {
     {
       id: 1,
       title: "Web Development",
-      imageSrc: "assets/citydatamap.png",
-      detailImages: ["assets/Apple copy.png"]
+      imageSrc: "assets/NextdoorNeighbor.png",
+      detailImages: ["assets/pipeline.png", "assets/NextdoorNeighbor.png", "assets/Google Book Search.png", "assets/Fitness Tracker.png", "assets/Codequiz.png"]
     },
     {
       id: 2,
       title: "UX/UI Design",
       imageSrc: "assets/Couplekeepermockup.png",
-      detailImages: ["assets/Codequiz.png"]
+      detailImages: ["assets/Couplekeepermockup.png", "assets/Couple Keeper- flowcopy.png"]
     },
     {
       id: 3,
-      title: "Apps",
-      imageSrc: "assets/NextdoorNeighbor.png",
-      detailImages: ["assets/pipeline.png"]
+      title: "Apps-Coming Soon",
+      imageSrc: "assets/app.png",
+      detailImages: ["assets/app.png"]
     },
     {
       id: 4,
       
       title: "Wordpress, Wix, Shopify",
-      imageSrc: "assets/Fitness Tracker.png",
-      // url: "https://obscure-mountain-16294.herokuapp.com/"
+      imageSrc: "assets/Free Reign Boutique.png",
+      detailImages: ["assets/Free Reign Boutique.png"]
     },
     {
       id: 5,
-      title: "Vectors & Illustrations",
+      title: "Graphic Design",
       imageSrc: "assets/Apple copy.png",
-      // url: "https://infinite-chamber-35998.herokuapp.com/"
+      detailImages: ["assets/Apple copy.png", "assets/Lauren copy.png", "assets/andrew-vector copy.png", "assets/PipelineLogo.png", "assets/Logo for Anna copy.png"],
     },
     {
       id: 6,
       title: "Passion Projects",
-      imageSrc: "assets/Google Book Search.png",
-      // url: "https://thawing-headland-19129.herokuapp.com/"
+      imageSrc: "assets/Passion.JPG",
+      // url: "https://drive.google.com/drive/folders/1fN3V7YTm1cMxmR165TOwCZbqMZ9wbbhG?usp=sharing"
     }
   ],
 
@@ -55,7 +55,7 @@ export default {
     {
       name: "Resume",
       url:
-        "https://drive.google.com/file/d/1eaZDBNbuin9xZijIVeChNisVe6MIi0hS/view?usp=sharing"
+        "https://drive.google.com/file/d/1xm-d7fSO3FuwoC7jIYQNigml0DUGOW-t/view?usp=sharing"
     },
     {
       name: "LinkedIn",

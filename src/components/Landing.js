@@ -3,7 +3,6 @@ import Header from "./Header";
 import Home from "./home";
 import Work from "./Work";
 import Contact from "./Contact";
-
 import data from "./YourData";
 
 const Landing = () => {

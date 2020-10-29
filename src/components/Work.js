@@ -20,8 +20,11 @@ const Work = ({ projects }) => {
       {detailImages.length >0 &&
       <div className="projects_detail_container">
         <img src= {detailImages[0]} ></img>
-        <img src= {detailImages[0]} ></img>
-        <img src= {detailImages[0]} ></img>
+        <img src= {detailImages[1]} ></img>
+        <img src= {detailImages[2]} ></img>
+        <img src= {detailImages[3]} ></img>
+        <img src= {detailImages[4]} ></img>
+        <img src= {detailImages[5]} ></img>
       </div>
       }
     </div>
