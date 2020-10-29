@@ -13,39 +13,39 @@ export default {
   projects: [
     {
       id: 1,
-      title: "Web Development",
-      imageSrc: "assets/NextdoorNeighbor.png",
+      // title: "Web Development",
+      imageSrc: "assets/1.png",
       detailImages: ["assets/pipeline.png", "assets/NextdoorNeighbor.png", "assets/Google Book Search.png", "assets/Fitness Tracker.png", "assets/Codequiz.png"]
     },
     {
       id: 2,
-      title: "UX/UI Design",
-      imageSrc: "assets/Couplekeepermockup.png",
+      // title: "UX/UI Design",
+      imageSrc: "assets/2.png",
       detailImages: ["assets/Couplekeepermockup.png", "assets/Couple Keeper- flowcopy.png"]
     },
     {
       id: 3,
-      title: "Apps-Coming Soon",
-      imageSrc: "assets/app.png",
+      // title: "Apps-Coming Soon",
+      imageSrc: "assets/3.png",
       detailImages: ["assets/app.png"]
     },
     {
       id: 4,
       
-      title: "Wordpress, Wix, Shopify",
-      imageSrc: "assets/Free Reign Boutique.png",
+      // title: "Wordpress, Wix, Shopify",
+      imageSrc: "assets/4.png",
       detailImages: ["assets/Free Reign Boutique.png"]
     },
     {
       id: 5,
-      title: "Graphic Design",
-      imageSrc: "assets/Apple copy.png",
+      // title: "Graphic Design",
+      imageSrc: "assets/5.png",
       detailImages: ["assets/Apple copy.png", "assets/Lauren copy.png", "assets/andrew-vector copy.png", "assets/PipelineLogo.png", "assets/Logo for Anna copy.png"],
     },
     {
       id: 6,
-      title: "Passion Projects",
-      imageSrc: "assets/Passion.JPG",
+      // title: "Passion Projects",
+      imageSrc: "assets/6.png",
       // url: "https://drive.google.com/drive/folders/1fN3V7YTm1cMxmR165TOwCZbqMZ9wbbhG?usp=sharing"
     }
   ],
